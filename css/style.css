@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: "custom";
+	src:url(../font/rockb.ttf );
+	src:url(../font/ROCK.TTF);
+	font-width: normal;
+	font-style: normal;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	position: relative;
+	background: url(../img/bg.png) no-repeat center top / cover;
+	height: 350px;
+}	
+.wrapper{
+	width: 940px;
+	margin: 0 auto;
+	font-family: custom;
+
+}
+.logo{
+	position: relative;
+	top: 250px;
+	left: 490px;
+	width: 215px;
+
+}
+nav{
+	height: 87px;
+	border-bottom: 1px solid  #afafaf;
+}
+.menu{
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	display: inline-block;
+	padding-top: 32px;
+	font-size: 24px;
+	float: left;
+	margin-left: 80px;
+}
+a{
+	color: #bcbcbc;
+	text-decoration: none;
+}
+.menu_left a{
+	margin-left: 21px;
+	margin-right: 21px;
+}  
+	
+.menu_right a{ 
+margin-left: 80px; 
+float: right;
+padding-left: 50px;	
+}
+.menu_right:last-child a {
+	margin-left: 0px; 
+}
+
+a:hover{
+	color: #3eb3a5;
+	text-decoration: underline  #afafaf;
+}
